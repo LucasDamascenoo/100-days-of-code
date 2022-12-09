@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background: #f42d42;
+}
+
+a {
+  background: burlywood;
+}
+
+a:hover {
+  color: aqua;
+}
+
+h1 {
+  font-size: 2rem;
+}
