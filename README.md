@@ -244,3 +244,69 @@ Tambem podemos combinar seletores para que possa ter uma especifidade maior ou a
 
 - descendente : li p (estiliza todos os p filho de li)
 - filho : h2 > p (estiliza apenas o filho(p) direto de h2)
+
+- Displays Inline e Block.
+
+O que são esses displays?
+
+- Display Inline
+
+Transforma os elementos em inline ou seja um do lado do outro e a largura do seu elemento é determinada pelo tamanho do conteudo.
+
+Obs: Propriedades inline não aceita modificação de altura/largura do elemento e só aceita alteração de margin/padding para os lados (direita e esquerda).
+
+- Display block
+
+Transforma os elementos em block, ocupam a largura total e joga os outros elementos para baixo.
+
+Obs: Aceita altura e largura
+
+# dia 08
+
+- Margin Collapse
+
+Margin Collpse é quando duas margin proximas(adjacentes) se sobrepoem(vira uma só) e ganha a margem maior(apenas verticalmente e elementos blocks).
+
+- Box-shadow
+
+O que é?
+
+Acrecenta uma sombra ao redor de algum elemento.
+
+Para usar essa
+
+```css:
+
+/* offset-x | offset-y | blur-radius | color */
+box-shadow: 10px 5px 5px black;
+
+```
+
+# dia 09 / 10
+
+Revisão dos conceitos aprendidos até aqui, estrutrura html, conceitos de css.
+
+- Como adicionar um favicon?
+
+Temos geradores onlines de favicon , geramos e baixamos.
+
+Para adicionar no html.
+
+```html:
+
+<link rel="icon" href"imagens/favicon.ico" type="image/x-icon>
+
+```
+
+# dia 11
+
+- O que é um deploy?
+
+É quando colocamos aplicação no ar, para desenvolvedor web é quando hospedamos nosso site em um server que pode ser visitado por outras pessoas (host).
+
+- Onde hospedar nossas aplicações?
+
+Existem algumas maneiras de hospedar nossas aplicações, sejam pagas ou grátis.
+
+- GitHUb Pages
+- Netfly
