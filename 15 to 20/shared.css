@@ -20,4 +20,33 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  width: 100%;
+  position: absolute;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(255, 251, 0);
+  font-size: 1.3rem;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.container a:hover {
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 251, 0);
 }

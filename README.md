@@ -311,7 +311,7 @@ Existem algumas maneiras de hospedar nossas aplicações, sejam pagas ou grátis
 - GitHUb Pages
 - Netfly
 
-# dias 11/12/13/14
+# dias 12/13/14
 
 - O que aprendemos?
 
